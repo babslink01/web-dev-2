@@ -1,0 +1,68 @@
+.headingRed{
+    color: red;/
+}
+
+.headingRed:Hover {
+    color: green;
+}
+
+.headingBorder{
+    border: 3px solid blue;
+    border-radius: 50px;
+}
+
+.headingSpace{
+ margin: 40px;
+ padding: 40px;
+}
+
+/* body{
+
+    background-attachment: scroll;
+    background: yellow url(bg.img.jpg) no-repeat;
+} */
+
+.container{
+    width: 250px;
+    height: 250px;
+    background-image: url(bg.img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: blue;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px o;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:Hover {
+    background-color: green;
+}
+
+table,tr,th,td {
+border: 1px solid black;
+text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: green;
+}
+
+tr:nth-child(odd){
+    background-color: lightgreen;
+}
+
+tr:nth-child(even){
+    background-color: lightblue;
+}
